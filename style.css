@@ -1,3 +1,8 @@
+*{
+    /* margin: 0; */
+    /* padding: 0; */
+}
+
 .container{
     display:flex;
     justify-content: space-around;
@@ -24,4 +29,62 @@ ul{
 li{
     /* display: inline; */
     padding: 10px;
+}
+
+#kule{
+    width: 100%;
+}
+
+.anasayfa{
+    border: 2px solid orange;
+    background-color: #494C5F;
+    padding: 2px;
+}
+
+.anasayfa p{
+    margin: 2px;
+}
+
+.kart h3{
+    background-color: orange;
+    margin: 2px;
+    color: white;
+}
+
+.kart{
+    border: 2px solid gray;
+    width:30%;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.kart img{
+    border: 2px solid gray;
+    padding: 5px;
+}
+
+.fiyat{
+    background-color: #494C5F;
+    text-align: right;
+    color: white;
+}
+
+.kartlar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.kartlar{
+    flex-wrap: wrap;
+}
+
+.footer{
+    background-color: #494C5F;
+    padding: 5px;
+    text-align: center;
+    border-bottom: 3px solid orange;
+    border-right: 3px solid orange;
+    border-left: 3px solid orange;
+    width: 100%;
 }
